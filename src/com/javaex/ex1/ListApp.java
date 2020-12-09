@@ -16,6 +16,11 @@ public class ListApp {
 		rList.add(r01); //r01 Ox123 들어감
 		rList.add(r02); //r02 Ox333들어감.  rArray[]배열값으로 보고 싶어도 볼수 없다. 접근할 수 있는 것을 만들어 준다.
 		
+		Rectangle r100 = rList.get(0);
+		r100.draw();
+		
+		System.out.println(rList.size());
+		
 		//원 관리
 		CircleList cList = new CircleList();
 		
@@ -24,6 +29,11 @@ public class ListApp {
 		
 		cList.add(c01);
 		cList.add(c02);
+		
+		Circle c100 = cList.get(0);
+		c100.draw();
+		
+		System.out.println(cList.size());
 		
 		//삼각형 관리
 		TriangleList tList = new TriangleList();
@@ -34,5 +44,9 @@ public class ListApp {
 		tList.add(t01);
 		tList.add(t02);
 		
+		Triangle t100 = tList.get(0);
+		t100.draw();
+		
+		System.out.println(tList.size());
 	}
 }

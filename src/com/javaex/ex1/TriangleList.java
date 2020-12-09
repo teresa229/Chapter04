@@ -21,5 +21,9 @@ public class TriangleList {
 	public Triangle get(int index) {
 		return tArray[index];
 	}
+	
+	public int size() {
+		return crtPos;
+	}
 		
 }

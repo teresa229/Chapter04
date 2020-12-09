@@ -1,4 +1,4 @@
-package com.javaex.ex1;
+package com.javaex.ex2;
 
 public class Triangle {
 
@@ -29,7 +29,7 @@ public class Triangle {
 
 	//메소드
 	public void draw() {
-		System.out.println("삼각형(가로:"+ width + ", 세로:" + height +"을 그렸습니다.)");
+		System.out.println("삼각형(가로+"+ width + ", 세로:" + height +"을 그렸습니다.)");
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package com.javaex.ex1;
+package com.javaex.ex2;
 
 public class Circle {
 
